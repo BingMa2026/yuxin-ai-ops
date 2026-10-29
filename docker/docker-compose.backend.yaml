@@ -1,0 +1,89 @@
+name: yuxin-ai-ops
+
+services:
+  backend:
+    container_name: yuxin-ai-ops-backend
+    build:
+      context: ../
+      dockerfile: ./docker/backend/Dockerfile
+    image: "yuxin-ai-ops-backend:${BACKEND_IMAGE_TAG:-latest}"
+    restart: unless-stopped
+    # 唯一的生产运行环境文件；可包含短信、支付等可选业务配置。
+    env_file:
+      - ${BACKEND_ENV_FILE:-/data/stacks/yuxin-ai-ops/docker/.env.backend}
+    environment:
+      TZ: "Asia/Shanghai"
+      ENVIRONMENT: "prod"
+      SERVER_HOST: "0.0.0.0"
+      SERVER_PORT: "8001"
+      DEBUG: "false"
+      TITLE: "喻信运营管理平台"
+      HTTPS_REDIRECT_ENABLE: "false"
+      ALLOWED_HOSTS: '${ALLOWED_HOSTS:-["www.yxciedu.com","119.45.121.36","localhost","127.0.0.1","yuxin-ai-ops-backend"]}'
+      PROD_CORS_ORIGINS: "${PROD_CORS_ORIGINS:-https://www.yxciedu.com}"
+      GROWTH_INVITE_BASE_URL: "${GROWTH_INVITE_BASE_URL:-https://www.yxciedu.com}"
+      GROWTH_PUBLIC_BASE_URL: "${GROWTH_PUBLIC_BASE_URL:-https://www.yxciedu.com}"
+      # 当前 proxy_network 网段；迁移时核实 docker network inspect 的结果。
+      FORWARDED_ALLOW_IPS: "${FORWARDED_ALLOW_IPS:-127.0.0.1,172.19.0.0/16}"
+      SECRET_KEY: "${SECRET_KEY:?请设置 SECRET_KEY}"
+      DATABASE_TYPE: "postgres"
+      DATABASE_HOST: "shared-postgres"
+      DATABASE_PORT: "5432"
+      DATABASE_USER: "${DATABASE_USER:?请设置 DATABASE_USER}"
+      DATABASE_PASSWORD: "${DATABASE_PASSWORD:?请设置 DATABASE_PASSWORD}"
+      DATABASE_NAME: "${DATABASE_NAME:-yuxin_ai_ops}"
+      REDIS_HOST: "shared-redis"
+      REDIS_PORT: "6379"
+      REDIS_USER: "${REDIS_USER:-root}"
+      REDIS_PASSWORD: "${REDIS_PASSWORD:?请设置 REDIS_PASSWORD}"
+      REDIS_DB_NAME: "${REDIS_DB_NAME:-3}"
+      LOGGER_LEVEL: "INFO"
+      IP_LOCATION_ENABLE: "false"
+      CAPTCHA_ENABLE: "false"
+      MODEL_RESULT_JOURNAL_PATH: "/home/data/model-results.sqlite3"
+    expose:
+      - "8001"
+    volumes:
+      - backend_uploads:/home/static/upload
+      - backend_model_results:/home/data
+      # 支付密钥独立于镜像和发布目录，容器内仅允许读取。
+      - type: bind
+        source: ${PAYMENT_KEYS_HOST_DIR:-/data/stacks/yuxin-ai-ops/payment-keys}
+        target: /run/secrets/payment
+        read_only: true
+        bind:
+          create_host_path: true
+    networks:
+      - shared_backend
+      - proxy_network
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "python -c 'import urllib.request; urllib.request.urlopen(\"http://localhost:8001/common/health/ready\")' || exit 1",
+        ]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    mem_limit: 1g
+    cpus: 1.0
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  shared_backend:
+    external: true
+    name: shared_backend
+  proxy_network:
+    external: true
+    name: proxy_network
+
+volumes:
+  backend_model_results:
+    name: yuxin_ai_ops_model_results
+  backend_uploads:
+    name: yuxin_ai_ops_backend_uploads

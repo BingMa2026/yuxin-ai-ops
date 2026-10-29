@@ -1,0 +1,11 @@
+[
+    {
+        "name": "喻信运营团队",
+        "code": "YUXIN_OPS",
+        "order": 1,
+        "status": 0,
+        "description": "喻信运营团队（唯一默认组织）",
+        "parent_id": null,
+        "children": []
+    }
+]

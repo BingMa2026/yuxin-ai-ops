@@ -1,0 +1,1010 @@
+{
+  "qwen-audio-3.0-asr-flash": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "音频输入",
+        "unit": "second",
+        "price": "0.00022"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "fun-asr-flash-2026-06-15": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "音频输入",
+        "unit": "second",
+        "price": "0.00022"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3-asr-flash": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "音频输入",
+        "unit": "second",
+        "price": "0.00022"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3-asr-flash-2026-02-10": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "音频输入",
+        "unit": "second",
+        "price": "0.00022"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3-asr-flash-2025-09-08": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "音频输入",
+        "unit": "second",
+        "price": "0.00022"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3-asr-flash-realtime": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "音频输入",
+        "unit": "second",
+        "price": "0.00033"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3-asr-flash-realtime-2026-02-10": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "音频输入",
+        "unit": "second",
+        "price": "0.00033"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3-asr-flash-realtime-2025-10-27": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "音频输入",
+        "unit": "second",
+        "price": "0.00033"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen-audio-3.0-asr-flash-streaming": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "音频输入",
+        "unit": "second",
+        "price": "0.00033"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3-tts-flash": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "0.8"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-flash-2025-11-27": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "0.8"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-flash-2025-09-18": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "0.8"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-instruct-flash": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "0.8"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-instruct-flash-2026-01-26": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "0.8"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-vd-2026-01-26": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "0.8"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-vc-2026-01-22": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "0.8"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-flash-realtime": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "1"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-flash-realtime-2025-11-27": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "1"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-flash-realtime-2025-09-18": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "1"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-instruct-flash-realtime": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "1"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-instruct-flash-realtime-2026-01-22": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "1"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-vd-realtime-2026-01-15": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "1"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-vd-realtime-2025-12-16": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "1"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-vc-realtime-2026-01-15": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "1"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "qwen3-tts-vc-realtime-2025-11-27": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "1"
+      }
+    ],
+    "note": "按计费字符统计；汉字计2字符，其他字符通常计1字符；输出不另计费。音色创建等附加服务另计。"
+  },
+  "minimax/speech-2.8-hd": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "3.5"
+      },
+      {
+        "label": "音色复刻（首次合成收取）",
+        "unit": "voice",
+        "price": "9.9"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "minimax/speech-02-hd": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "3.5"
+      },
+      {
+        "label": "音色复刻（首次合成收取）",
+        "unit": "voice",
+        "price": "9.9"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "minimax/speech-2.8-turbo": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "2"
+      },
+      {
+        "label": "音色复刻（首次合成收取）",
+        "unit": "voice",
+        "price": "9.9"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "minimax/speech-02-turbo": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "语音合成",
+        "unit": "10k_characters",
+        "price": "2"
+      },
+      {
+        "label": "音色复刻（首次合成收取）",
+        "unit": "voice",
+        "price": "9.9"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen-tts-2025-05-22": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本输入",
+        "unit": "million_tokens",
+        "price": "1.6"
+      },
+      {
+        "label": "音频输出",
+        "unit": "million_tokens",
+        "price": "10"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3.5-omni-plus": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本/图片/视频输入",
+        "unit": "million_tokens",
+        "price": "7"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "53"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "40"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "213"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3.5-omni-plus-2026-03-15": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本/图片/视频输入",
+        "unit": "million_tokens",
+        "price": "7"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "53"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "40"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "213"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3.5-omni-flash": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本/图片/视频输入",
+        "unit": "million_tokens",
+        "price": "2.2"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "18"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "13.3"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "72"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3.5-omni-flash-2026-03-15": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本/图片/视频输入",
+        "unit": "million_tokens",
+        "price": "2.2"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "18"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "13.3"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "72"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3.5-omni-plus-realtime": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本/图片/视频输入",
+        "unit": "million_tokens",
+        "price": "10"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "80"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "60"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "300"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3.5-omni-plus-realtime-2026-03-15": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本/图片/视频输入",
+        "unit": "million_tokens",
+        "price": "10"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "80"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "60"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "300"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3.5-omni-flash-realtime": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本/图片/视频输入",
+        "unit": "million_tokens",
+        "price": "3.3"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "27"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "20"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "107"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3.5-omni-flash-realtime-2026-03-15": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本/图片/视频输入",
+        "unit": "million_tokens",
+        "price": "3.3"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "27"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "20"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "107"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3-omni-flash": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本输入",
+        "unit": "million_tokens",
+        "price": "1.8"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "15.8"
+      },
+      {
+        "label": "图片/视频输入",
+        "unit": "million_tokens",
+        "price": "3.3"
+      },
+      {
+        "label": "文本输出（纯文本输入）",
+        "unit": "million_tokens",
+        "price": "6.9"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "12.7"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "62.6"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3-omni-flash-2025-12-01": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本输入",
+        "unit": "million_tokens",
+        "price": "1.8"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "15.8"
+      },
+      {
+        "label": "图片/视频输入",
+        "unit": "million_tokens",
+        "price": "3.3"
+      },
+      {
+        "label": "文本输出（纯文本输入）",
+        "unit": "million_tokens",
+        "price": "6.9"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "12.7"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "62.6"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3-omni-flash-2025-09-15": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本输入",
+        "unit": "million_tokens",
+        "price": "1.8"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "15.8"
+      },
+      {
+        "label": "图片/视频输入",
+        "unit": "million_tokens",
+        "price": "3.3"
+      },
+      {
+        "label": "文本输出（纯文本输入）",
+        "unit": "million_tokens",
+        "price": "6.9"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "12.7"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "62.6"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3-omni-flash-realtime": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本输入",
+        "unit": "million_tokens",
+        "price": "2.2"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "18.9"
+      },
+      {
+        "label": "图片/视频输入",
+        "unit": "million_tokens",
+        "price": "3.9"
+      },
+      {
+        "label": "文本输出（纯文本输入）",
+        "unit": "million_tokens",
+        "price": "8.3"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "15.2"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "75.1"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3-omni-flash-realtime-2025-12-01": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本输入",
+        "unit": "million_tokens",
+        "price": "2.2"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "18.9"
+      },
+      {
+        "label": "图片/视频输入",
+        "unit": "million_tokens",
+        "price": "3.9"
+      },
+      {
+        "label": "文本输出（纯文本输入）",
+        "unit": "million_tokens",
+        "price": "8.3"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "15.2"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "75.1"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen3-omni-flash-realtime-2025-09-15": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本输入",
+        "unit": "million_tokens",
+        "price": "2.2"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "18.9"
+      },
+      {
+        "label": "图片/视频输入",
+        "unit": "million_tokens",
+        "price": "3.9"
+      },
+      {
+        "label": "文本输出（纯文本输入）",
+        "unit": "million_tokens",
+        "price": "8.3"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "15.2"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "75.1"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen-omni-turbo": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本输入",
+        "unit": "million_tokens",
+        "price": "0.4"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "25"
+      },
+      {
+        "label": "图片/视频输入",
+        "unit": "million_tokens",
+        "price": "1.5"
+      },
+      {
+        "label": "文本输出（纯文本输入）",
+        "unit": "million_tokens",
+        "price": "1.6"
+      },
+      {
+        "label": "文本输出（多模态输入）",
+        "unit": "million_tokens",
+        "price": "4.5"
+      },
+      {
+        "label": "音频输出（伴随文本不计费）",
+        "unit": "million_tokens",
+        "price": "50"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen-audio-3.0-realtime-plus": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本输入",
+        "unit": "million_tokens",
+        "price": "5"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "40"
+      },
+      {
+        "label": "文本输出",
+        "unit": "million_tokens",
+        "price": "40"
+      },
+      {
+        "label": "音频输出",
+        "unit": "million_tokens",
+        "price": "150"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  },
+  "qwen-audio-3.0-realtime-flash": {
+    "region": "华北2（北京）",
+    "currency": "CNY",
+    "source_url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "verified_at": "2026-09-13",
+    "items": [
+      {
+        "label": "文本输入",
+        "unit": "million_tokens",
+        "price": "3"
+      },
+      {
+        "label": "音频输入",
+        "unit": "million_tokens",
+        "price": "30"
+      },
+      {
+        "label": "文本输出",
+        "unit": "million_tokens",
+        "price": "30"
+      },
+      {
+        "label": "音频输出",
+        "unit": "million_tokens",
+        "price": "100"
+      }
+    ],
+    "note": "官方刊例价；不含免费额度、折扣，实际费用以供应商账单为准。"
+  }
+}

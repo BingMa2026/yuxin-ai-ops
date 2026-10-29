@@ -1,0 +1,11 @@
+[
+  {"id": 1, "code": "budget", "name": "预算中心", "icon": "ri:funds-box-line", "description": "产品定价、刊例与预算成本体系", "accent": "cyan", "order": 1, "status": "active"},
+  {"id": 2, "code": "operations", "name": "运营中心", "icon": "ri:compass-3-line", "description": "运营任务与业务过程总览", "accent": "violet", "order": 2, "status": "active"},
+  {"id": 3, "code": "user_ops", "name": "用户运营", "icon": "ri:user-heart-line", "description": "用户档案、触达、服务与反馈", "accent": "emerald", "order": 3, "status": "active"},
+  {"id": 4, "code": "rule_engine", "name": "规则引擎", "icon": "ri:flow-chart", "description": "用户生命周期与客诉处理规则", "accent": "amber", "order": 4, "status": "active"},
+  {"id": 5, "code": "resource", "name": "资源中心", "icon": "ri:archive-stack-line", "description": "模型、商机与平台资源统一管理", "accent": "blue", "order": 5, "status": "active"},
+  {"id": 6, "code": "finance", "name": "财务中心", "icon": "ri:bank-card-line", "description": "财务核算与结算能力入口", "accent": "rose", "order": 6, "status": "active"},
+  {"id": 7, "code": "platform", "name": "平台管理", "icon": "ri:settings-3-line", "description": "系统原有功能、权限与平台配置", "accent": "slate", "order": 7, "status": "active"},
+  {"id": 8, "code": "collaboration", "name": "组织协作", "icon": "ri:team-line", "description": "跨组织协作能力，规划中", "accent": "indigo", "order": 8, "status": "coming_soon"},
+  {"id": 9, "code": "analytics", "name": "经营分析", "icon": "ri:line-chart-line", "description": "经营指标与决策分析，规划中", "accent": "orange", "order": 9, "status": "coming_soon"}
+]

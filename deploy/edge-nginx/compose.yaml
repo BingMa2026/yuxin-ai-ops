@@ -1,0 +1,35 @@
+# 公共入口唯一来源。部署到 /data/stacks/nginx，独立于应用发布。
+name: edge-nginx
+
+services:
+  nginx:
+    image: nginx:1.30.4-alpine
+    container_name: edge-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./conf.d:/etc/nginx/conf.d:ro
+      - ./snippets:/etc/nginx/snippets:ro
+      - ./html:/usr/share/nginx/html:ro
+      - /data/nginx/yxciedu:/etc/nginx/ssl/yxciedu:ro
+    networks:
+      - proxy_network
+    mem_limit: 256m
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1/healthz || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+networks:
+  proxy_network:
+    external: true
+    name: proxy_network
